@@ -25,7 +25,7 @@ venv_dir="/sdforge/venv"
 export LAUNCH_SCRIPT="/sdforge/launch.py"
 
 # Run as root
-export can_run_as_root=1
+#export can_run_as_root=1
 
 # install command for torch
 #export TORCH_COMMAND="pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu125"

@@ -10,7 +10,7 @@
 #clone_dir="stable-diffusion-webui"
 
 # Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
-export COMMANDLINE_ARGS="--api --nowebui --port 3000 --no-download-sd-model --skip-torch-cuda-test --enable-insecure-extension-access -f"
+#export COMMANDLINE_ARGS="--api --nowebui --port 3000 --no-download-sd-model --skip-torch-cuda-test --enable-insecure-extension-access -f"
 
 # python3 executable
 #python_cmd="python3"
@@ -22,7 +22,7 @@ export COMMANDLINE_ARGS="--api --nowebui --port 3000 --no-download-sd-model --sk
 venv_dir="/sdforge/venv"
 
 # script to launch to start the app
-export LAUNCH_SCRIPT="/sdforge/launch.py"
+# export LAUNCH_SCRIPT="/sdforge/launch.py"
 
 # Run as root
 #export can_run_as_root=1

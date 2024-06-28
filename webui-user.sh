@@ -10,7 +10,7 @@
 #clone_dir="stable-diffusion-webui"
 
 # Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
-export COMMANDLINE_ARGS="--api --nowebui --port 3000 --no-download-sd-model --skip-torch-cuda-test --enable-insecure-extension-access"
+export COMMANDLINE_ARGS="--api --nowebui --port 3000 --no-download-sd-model --skip-torch-cuda-test --enable-insecure-extension-access -f"
 
 # python3 executable
 #python_cmd="python3"
@@ -23,6 +23,9 @@ venv_dir="/sdforge/venv"
 
 # script to launch to start the app
 export LAUNCH_SCRIPT="/sdforge/launch.py"
+
+# Run as root
+export can_run_as_root=1
 
 # install command for torch
 #export TORCH_COMMAND="pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu125"
